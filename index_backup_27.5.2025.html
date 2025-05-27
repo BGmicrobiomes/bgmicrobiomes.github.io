@@ -20,19 +20,6 @@
 	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 
-	<style>
-@media (max-width: 768px) {
-    .responsive-logo {
-        height: 60px !important;
-    }
-}
-@media (max-width: 480px) {
-    .responsive-logo {
-        height: 45px !important;
-    }
-}
-</style>
-
 
 </head> 
 
@@ -69,8 +56,7 @@
 		</div><!--//branding-->
 	</header><!--//header-->
 	
-<div id="hero-block" class="hero-block">
-    <!-- Carousel Background -->
+	<div id="hero-block" class="hero-block">
     <div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item-1 carousel-item active"></div>
@@ -78,46 +64,40 @@
             <div class="carousel-item-3 carousel-item"></div>
         </div>
     </div>
-
-    <!-- Optional dark overlay -->
     <div class="hero-block-mask"></div>
-
-    <!-- Main Content Container -->
-    <div class="container-fluid px-4">
-        <!-- LOGOS Section -->
-        <div class="hero-logos mb-4 d-flex flex-wrap justify-content-end align-items-right" style="gap: 2rem; position: relative; z-index: 11;">
-            <a href="https://fems-microbiology.org/opportunities/from-genomic-analysis-to-functional-models-in-microbiomes-and-synthetic-consortia-biomefun-2025/" target="_blank">
-                <img src="assets/images/fems.svg" alt="FEMS logo" class="responsive-logo" style="height: 120px; width: auto;">
-            </a>
-            <a href="https://www.tudelft.nl/en/" target="_blank">
-                <img src="assets/images/delft.svg" alt="Delft University logo" class="responsive-logo" style="height: 120px; width: auto;">
-            </a>
-            <a href="https://www.bg.ac.rs/home/" target="_blank">
-                <img src="assets/images/UB.svg" alt="University of Belgrade logo" class="responsive-logo" style="height: 120px; width: auto;">
-            </a>
-            <a href="https://bio.bg.ac.rs/" target="_blank">
-                <img src="assets/images/BF.svg" alt="Faculty of Biology logo" class="responsive-logo" style="height: 120px; width: auto;">
-            </a>
-        </div>
-
-        <!-- HERO TEXT Section -->
-        <div class="d-flex flex-wrap justify-content-between align-items-start hero-text-block" style="position: relative; z-index: 11;">
-            <div class="hero-text-left me-4" style="max-width: 600px;">
+    <div class="container-fluid px-4"> <!-- Changed to container-fluid and added horizontal padding -->
+        <div class="d-flex flex-wrap justify-content-between align-items-start hero-text-block">
+            <div class="hero-text-left me-4" style="max-width: 600px;"> <!-- Added max-width -->
                 <h1 class="hero-heading mb-2">BiomeFUN 2025</h1>
-                <div class="hero-meta mb-3">
-                    <i class="far fa-calendar-alt me-2"></i>15 - 19 September
-                    <i class="fas fa-map-marker-alt mx-2"></i>Belgrade, Serbia
-                </div>
-                <div class="hero-intro mb-4">
-                    From Genomic Analysis to Functional Models in Microbiomes and Synthetic Consortia
-                </div>
-                <div class="hero-cta mb-3">
-                    <a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSesCLXRzv14tTAxTxRZpfK8Mx1ThyrRLxmtqqnQFqSiipk5gg/viewform?usp=header" target="_blank">Register</a>
-                </div>
+                <div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>15 - 19 September <i class="fas fa-map-marker-alt mx-2"></i>Belgrade, Serbia</div>
+                <div class="hero-intro mb-4">From Genomic Analysis to Functional Models in Microbiomes and Synthetic Consortia</div>
+                <div class="hero-cta mb-3"><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSesCLXRzv14tTAxTxRZpfK8Mx1ThyrRLxmtqqnQFqSiipk5gg/viewform?usp=header" target="_blank">Register</a></div>
             </div>
+
+			<div class="hero-logos mt-4" style="
+			display: flex;
+			flex-direction: row;
+			justify-content: center;  /* Center logos horizontally */
+			gap: 2rem;
+			align-items: center;
+		  ">
+			<a href="https://fems-microbiology.org/opportunities/from-genomic-analysis-to-functional-models-in-microbiomes-and-synthetic-consortia-biomefun-2025/" target="_blank">
+			  <img src="assets/images/fems.svg" alt="FEMS logo" style="height: 120px; width: auto;">
+			</a>
+			<a href="https://www.tudelft.nl/en/" target="_blank">
+			  <img src="assets/images/delft.svg" alt="Delft University logo" style="height: 120px; width: auto;">
+			</a>
+			<a href="https://www.bg.ac.rs/home/" target="_blank">
+			  <img src="assets/images/UB.svg" alt="University of Belgrade logo" style="height: 120px; width: auto;">
+			</a>
+			<a href="https://bio.bg.ac.rs/" target="_blank">
+			  <img src="assets/images/BF.svg" alt="Faculty of Biology logo" style="height: 120px; width: auto;">
+			</a>
+		  </div>
+
         </div>
-    </div> <!-- //container-fluid -->
-</div> <!-- //hero-block -->
+    </div><!--//container-fluid-->
+</div><!--//hero-block-->
 	
 	<div class="stats-block theme-bg-primary text-white py-4 text-center">
 		<div class="container">
