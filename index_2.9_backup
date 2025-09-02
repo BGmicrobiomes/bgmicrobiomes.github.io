@@ -1,0 +1,2540 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>BiomeFUN - From Genomic Analysis to Functional Models in Microbiomes and Synthetic Consortia</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Bootstrap 5 Tech Conference Template">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link rel="shortcut icon" href="favicon.ico"> 
+	
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+	<style>
+@media (max-width: 768px) {
+    .responsive-logo {
+        height: 60px !important;
+    }
+}
+@media (max-width: 480px) {
+    .responsive-logo {
+        height: 45px !important;
+    }
+}
+</style>
+
+
+</head> 
+
+<body>    
+	<header id="header" class="header fixed-top">	    
+		<div class="branding">
+			<div class="container-fluid">
+				<nav class="main-nav navbar navbar-expand-lg">
+					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/logo-white.svg" alt="logo"></a></div>    
+					
+					<div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSesCLXRzv14tTAxTxRZpfK8Mx1ThyrRLxmtqqnQFqSiipk5gg/viewform?usp=header" target="_blank">Register</a></div>
+					
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
+						<ul class="nav navbar-nav">
+							
+							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li> 
+							<li class="nav-item"><a class="nav-link scrollto" href="#organizers-section">Organizers</a></li>                                         
+							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers and teachers</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#tickets-section">Registration</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Venue</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#contact-section">Contact</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li>
+						</ul><!--//nav-->
+					</div><!--//navabr-collapse-->
+
+				</nav><!--//main-nav-->
+				
+			</div><!--//container-->
+		</div><!--//branding-->
+	</header><!--//header-->
+	
+<div id="hero-block" class="hero-block">
+    <!-- Carousel Background -->
+    <div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item-1 carousel-item active"></div>
+            <div class="carousel-item-2 carousel-item"></div>
+            <div class="carousel-item-3 carousel-item"></div>
+        </div>
+    </div>
+
+    <!-- Optional dark overlay -->
+    <div class="hero-block-mask"></div>
+
+    <!-- Main Content Container -->
+    <div class="container-fluid px-4">
+        <!-- LOGOS Section -->
+        <div class="hero-logos mb-4 d-flex flex-wrap justify-content-end align-items-right" style="gap: 2rem; position: relative; z-index: 11;">
+            <a href="https://fems-microbiology.org/opportunities/from-genomic-analysis-to-functional-models-in-microbiomes-and-synthetic-consortia-biomefun-2025/" target="_blank">
+                <img src="assets/images/fems.svg" alt="FEMS logo" class="responsive-logo" style="height: 120px; width: auto;">
+            </a>
+            <a href="https://www.tudelft.nl/en/" target="_blank">
+                <img src="assets/images/delft.svg" alt="Delft University logo" class="responsive-logo" style="height: 120px; width: auto;">
+            </a>
+            <a href="https://www.bg.ac.rs/home/" target="_blank">
+                <img src="assets/images/UB.svg" alt="University of Belgrade logo" class="responsive-logo" style="height: 120px; width: auto;">
+            </a>
+            <a href="https://bio.bg.ac.rs/" target="_blank">
+                <img src="assets/images/BF.svg" alt="Faculty of Biology logo" class="responsive-logo" style="height: 120px; width: auto;">
+            </a>
+        </div>
+
+        <!-- HERO TEXT Section -->
+        <div class="d-flex flex-wrap justify-content-between align-items-start hero-text-block" style="position: relative; z-index: 11;">
+            <div class="hero-text-left me-4" style="max-width: 600px;">
+                <h1 class="hero-heading mb-2">BiomeFUN 2025</h1>
+                <div class="hero-meta mb-3">
+                    <i class="far fa-calendar-alt me-2"></i>15 - 19 September
+                    <i class="fas fa-map-marker-alt mx-2"></i>Belgrade, Serbia
+                </div>
+                <div class="hero-intro mb-4">
+                    From Genomic Analysis to Functional Models in Microbiomes and Synthetic Consortia
+                </div>
+                <div class="hero-cta mb-3">
+                    <a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSesCLXRzv14tTAxTxRZpfK8Mx1ThyrRLxmtqqnQFqSiipk5gg/viewform?usp=header" target="_blank">Register</a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- //container-fluid -->
+</div> <!-- //hero-block -->
+	
+	<div class="stats-block theme-bg-primary text-white py-4 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number"> 40 </div>
+						<div class="unit"> Spots </div>
+					</div><!--//item-->
+				</div><!--//col-->
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number">5</div>
+						<div class="unit">Days</div>
+					</div><!--//item-->
+				</div><!--//col-->
+				<div class="col-6 col-md-3">
+					<div class="item">
+						<div class="number">14</div>
+						<div class="unit">Speakers</div>
+					</div><!--//item-->
+				</div><!--//col-->
+
+			</div>
+		</div><!--//container-->
+	</div><!--//stats-block-->
+
+	<section id="about-section" class="about-section section theme-bg-light">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">About BiomeFUN 2025 </h3>
+			<div class="section-intro single-col-max mx-auto mb-4">Microbial communities promise to revolutionize many fields, from biotechnology and health to agriculture. Mathematical and computational modeling is key to fulfill this potential. In this workshop, we will learn techniques to quantitatively analyze, understand and engineer microbial communities and synthetic microbial consortia. We will cover a range of topics, from the analysis of metagenomic sequencing data, to building and simulating meta-genome-scale metabolic models and analyzing the function of synthetic consortia using cutting-edge statistical "structure-function landscape" methods. </div>
+			<div class="benefits-list text-center mb-3">
+				<h4 class="text-center mb-4">What you will learn</h4>
+				<ul class="list-unstyled text-start d-inline-block">
+					<li><i class="fas fa-check-circle me-2"></i>16S and shotgun metagenomycs analysis</li>
+					<li><i class="fas fa-check-circle me-2"></i>Functional genomics, profiling and visualization</li>
+					<li><i class="fas fa-check-circle me-2"></i>Basic and advanced stoichiometric modeling with COBRA</li>
+					<li><i class="fas fa-check-circle me-2"></i>Meta-genome scale modeling of microbial communities</li>
+					<li><i class="fas fa-check-circle me-2"></i>Structure-function landscape modeling of microbial consortia</li> 		                
+					<li><i class="fas fa-check-circle me-2"></i>Introduction to uses of machine learning in the field</li>
+				</ul>
+			</div><!--//benefits-list-->
+			<div class="event-countdown text-center mb-3">		   
+				<h4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</h4>
+				<div id="countdown-box" class="countdown-box"></div>
+			  </div><!--//event-countdown-->
+			<h3 class="section-heading text-center mb-3"> Grants available! </h3>
+			<div class="section-intro single-col-max mx-auto mb-4"> 
+				<p>
+					Thanks to our main sponsor, the <strong>Federation of European Microbiological Societies (FEMS)</strong>, 
+					we are thrilled to offer <strong>up to 10 grants</strong> - <u>covering registration fee and accommodation</u> - aimed at participants from low and middle income countries.
+					Please state in your registration if you would like to apply for one of the grants!
+				  </p>
+				
+				  <p><strong>1. Selection Criteria for FEMS Supported Participants</strong></p>
+				  <ul>
+					<li>Priority for FEMS-supported places will be given to PhD students and early-career postdoctoral researchers (within 5 years of PhD) working in microbiome analysis, SynCom communities and bioinformatics, or related fields.</li>
+					<li>Selection will be based on a <em>motivation letter</em> with relevance of the workshop to the applicant’s current research, <em>abstract</em> and <em>CV</em>. Geographic and gender diversity will also be considered.</li>
+					<li>Please note that the grants cover registration fee and accomodation. All participants are expected to cover their traveling expenses.</li>
+				  </ul>
+				
+				  <p><strong>2. Criteria for selection of non-supported participants</strong></p>
+				  <ul>
+					<li>Scientists with a Masters degree or above who are currently involved in Life Science research/Industry are encouraged to apply.</li>
+				  </ul>
+			
+			
+			</div>
+		</div><!--//container-->
+
+<!--ORGANIZERS SECTION-->
+	<section id="organizers-section" class="organizers-section section">
+		<div class="container">
+		  <h3 class="section-heading text-center mb-3">Organizers</h3>
+		  <div class="row">
+			<div class="row justify-content-center gx-4">
+			<div class="col-6 col-lg-3 mb-4">
+			  <div class="card rounded-0">
+				<a
+				  href="#modal-speaker-1"
+				  data-bs-toggle="modal"
+				  data-bs-target="#modal-speaker-1"
+				  ><img
+					class="card-img-top rounded-0"
+					src="assets/images/speakers/speaker-1.jpg"
+					alt=""
+				/></a>
+				<div class="card-body">
+				  <h5 class="card-title mb-2">Ivica Dimkić</h5>
+				  <div class="card-text mb-3">
+					<div class="meta"><strong>Scientific & Organizing Committee Chairperson</strong></div>
+					<div class="meta">
+					  Faculty of Biology - University of Belgrade, Serbia
+					</div>
+				  </div>
+				  <!--//card-text-->
+				  <a
+					href="#modal-speaker-1"
+					data-bs-toggle="modal"
+					data-bs-target="#modal-speaker-1"
+					>Read more &rarr;</a
+				  >
+				</div>
+				<!--//card-->
+				<div class="card-footer text-muted"><!--//social-list--></div>
+			  </div>
+			  <!--//card-->
+			</div>
+			<!--//col-->
+			<div class="col-6 col-lg-3 mb-4">
+			  <div class="card rounded-0">
+				<a
+				  href="#modal-speaker-2"
+				  data-bs-toggle="modal"
+				  data-bs-target="#modal-speaker-2"
+				  ><img
+					class="card-img-top rounded-0"
+					src="assets/images/speakers/speaker-2.jpg"
+					alt=""
+				/></a>
+				<div class="card-body">
+				  <h5 class="card-title mb-2">Đorđe Bajić</h5>
+				  <div class="card-text mb-3">
+					<div class="meta"><strong>Scientific & Organizing Committee Co-Chairperson</strong></div>
+					<div class="meta">
+					  Delft University of Technology, the Netherlands
+					</div>
+				  </div>
+				  <!--//card-text-->
+				  <a
+					href="#modal-speaker-2"
+					data-bs-toggle="modal"
+					data-bs-target="#modal-speaker-2"
+					>Read more &rarr;</a
+				  >
+				</div>
+				<!--//card-->
+				<div class="card-footer text-muted"><!--//social-list--></div>
+			  </div>
+			  <!--//card-->
+			</div>
+			<!--//col-->
+			</div>
+		  </div>
+		  <!--//row-->
+		  
+		</div>
+		<!--//container-->
+	  </section>
+
+<div class="container">
+	<hr>
+</div>
+<!--END ORGANIZERS SECTION-->
+
+		<section id="speakers-section" class="speakers-section section">
+			<div class="container">
+			  <h3 class="section-heading text-center mb-3">Speakers and teachers</h3>
+			  <div class="row">
+				
+				
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-4"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-4"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-4.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Marcel van den Broek</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Bioinformatician</div>
+						<div class="meta">
+						  Delft University of Technology, the Netherlands
+						</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-4"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-4"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-5"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-5"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-5.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Milan Dragićević</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Senior AI Solution Developer</div>
+						<div class="meta">Parexel, Serbia</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-5"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-5"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-6"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-6"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-6.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Alfonso Esposito</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Professor</div>
+						<div class="meta">University of Verona, Italy</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-6"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-6"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-7"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-7"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-7.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Alexandre Jousset</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">CEO of Cybiome GmbH</div>
+						<div class="meta">Cybiome GmbH, Switzerland</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-7"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-7"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-8"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-8"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-8.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Joao Pedro Saraiva</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Senior Scientist</div>
+						<div class="meta">
+						  Helmholtz Centre for Environmental Research GmbH - UFZ,
+						  Germany
+						</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-8"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-8"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-9"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-9"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-9.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Prateek Shetty</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Postdoc</div>
+						<div class="meta">
+						  Matthias-Schleiden-Institut, Germany
+						</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-9"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-9"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-10"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-10"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-10.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Timmy Paez Watson</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Postdoc</div>
+						<div class="meta">
+						  Delft University of Technology, the Netherlands
+						</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-10"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-10"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-11"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-11"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-11.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Minke Gabriels</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">PhD Candidate</div>
+						<div class="meta">
+						  Delft University of Technology, the Netherlands
+						</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-11"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-11"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-12"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-12"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-12.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Karel Olavarria</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Postdoc</div>
+						<div class="meta">
+						  Delft University of Technology, the Netherlands
+						</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-12"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-12"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-13"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-13"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-13.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Juan D&iacute;az-Colunga</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Junior Group Leader</div>
+						<div class="meta">Spanish National Research Council, Spain</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-13"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-13"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<div class="col-6 col-lg-3 mb-4">
+				  <div class="card rounded-0">
+					<a
+					  href="#modal-speaker-14"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-14"
+					  ><img
+						class="card-img-top rounded-0"
+						src="assets/images/speakers/speaker-14.jpg"
+						alt=""
+					/></a>
+					<div class="card-body">
+					  <h5 class="card-title mb-2">Sascha Patz</h5>
+					  <div class="card-text mb-3">
+						<div class="meta">Bioinformatician</div>
+						<div class="meta">
+						  Julius K&uuml;hn Institute (JKI) - Federal Research Center for
+						  Cultivated Plants, Germany
+						</div>
+					  </div>
+					  <!--//card-text-->
+					  <a
+						href="#modal-speaker-14"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-14"
+						>Read more &rarr;</a
+					  >
+					</div>
+					<!--//card-->
+					<div class="card-footer text-muted"><!--//social-list--></div>
+				  </div>
+				  <!--//card-->
+				</div>
+				<!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+					  <a
+						href="#modal-speaker-15"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-15"
+						><img
+						  class="card-img-top rounded-0"
+						  src="assets/images/speakers/speaker-15.jpg"
+						  alt=""
+					  /></a>
+					  <div class="card-body">
+						<h5 class="card-title mb-2">Katarina Kruščić</h5>
+						<div class="card-text mb-3">
+						  <div class="meta">PhD Candidate</div>
+						  <div class="meta">
+							Faculty of Biology - University of Belgrade, Serbia
+						  </div>
+						</div>
+						<!--//card-text-->
+						<a
+						  href="#modal-speaker-15"
+						  data-bs-toggle="modal"
+						  data-bs-target="#modal-speaker-15"
+						  >Read more &rarr;</a
+						>
+					  </div>
+					  <!--//card-->
+					  <div class="card-footer text-muted"><!--//social-list--></div>
+					</div>
+					<!--//card-->
+				  </div>
+				  <!--//col-->
+				  <div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+					  <a
+						href="#modal-speaker-16"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-16"
+						><img
+						  class="card-img-top rounded-0"
+						  src="assets/images/speakers/speaker-16.jpg"
+						  alt=""
+					  /></a>
+					  <div class="card-body">
+						<h5 class="card-title mb-2">Uroš Gojković</h5>
+						<div class="card-text mb-3">
+						  <div class="meta">PhD Candidate</div>
+						  <div class="meta">
+							Delft University of Technology, the Netherlands
+						  </div>
+						</div>
+						<!--//card-text-->
+						<a
+						  href="#modal-speaker-16"
+						  data-bs-toggle="modal"
+						  data-bs-target="#modal-speaker-16"
+						  >Read more &rarr;</a
+						>
+					  </div>
+					  <!--//card-->
+					  <div class="card-footer text-muted"><!--//social-list--></div>
+					</div>
+					<!--//card-->
+				  </div>
+				  <!--//col-->
+			  </div>
+			  <!--//row-->
+			  
+			</div>
+			<!--//container-->
+		  </section>
+	
+	<div class="container">
+		<hr>
+	</div>
+	
+	<section id="schedule-section" class="schedule-section section">
+		<div class="container">
+		  <h3 class="section-heading text-center mb-5">Schedule</h3>
+		  <!-- Nav tabs -->
+		  <ul id="myTab" class="schedule-nav nav nav-pills nav-fill">
+			<li class="nav-item me-2">
+			  <a
+				id="tab-1"
+				class="nav-link active"
+				href="#tab-1-content"
+				data-bs-toggle="tab"
+			  >
+				<span class="heading">
+				  Day 1
+				</span>
+				<span class="meta"> (Mon 15, Sep) </span>
+			  </a>
+			</li>
+			<li class="nav-item me-2">
+			  <a
+				id="tab-2"
+				class="nav-link"
+				href="#tab-2-content"
+				data-bs-toggle="tab"
+			  >
+				<span class="heading"> Day 2 </span>
+				<span class="meta"> (Tue 16, Sep) </span>
+			  </a>
+			</li>
+			<li class="nav-item me-2">
+			  <a
+				id="tab-3"
+				class="nav-link"
+				href="#tab-3-content"
+				data-bs-toggle="tab"
+			  >
+				<span class="heading"> Day 3 </span>
+				<span class="meta"> (Wed 17, Sep) </span>
+			  </a>
+			</li>
+			<li class="nav-item me-2">
+			  <a
+				id="tab-4"
+				class="nav-link"
+				href="#tab-4-content"
+				data-bs-toggle="tab"
+			  >
+				<span class="heading">
+				  Day 4
+				</span>
+				<span class="meta"> (Thu 18, Sep) </span>
+			  </a>
+			</li>
+			<li class="nav-item me-2">
+			  <a
+				id="tab-5"
+				class="nav-link"
+				href="#tab-5-content"
+				data-bs-toggle="tab"
+			  >
+				<span class="heading">
+				  Day 5
+				</span>
+				<span class="meta"> (Fri 19, Sep) </span>
+			  </a>
+			</li>
+		  </ul>
+		  <!-- Tab panes -->
+		  <div class="schedule-tab-content tab-content">
+			<div id="tab-1-content" class="tab-pane active" role="tabpanel" aria-labelledby="tab-1">
+				<div class="schedule-introduction">
+					<p id="tab-1-title" style="font-size: 24px; font-weight: bold;">Day 1: Foundations in Bioinformatics and Data Processing</p>
+				  </div>
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">9:00 - 9:30</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-1"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-1"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-1.jpg"
+						alt=""
+					  />
+				    </a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-1"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-1"
+						>Ivica Dimkić</a
+						>
+					</div> <!--//name-->
+				</div> <!--//profile-->
+				</div> <!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Welcome and Orientation</h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker:</strong> Ivica Dimkić and Đorđe Bajić</div>
+				  <div class="desc">
+					Introduction by organizers, workshop objectives, and participant
+					introductions.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">9:30 - 10:30</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-4"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-4"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-4.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-4"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-4"
+						>Marcel van den Broek</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Metagenomic Sequencing Approaches for Microbial Communities
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Marcel van den Broek</div>
+				  <div class="desc">
+					Introduction to sequencing methods (Illumina and long-read
+					technologies) and quality assessment techniques.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">10:30 - 13:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-4"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-4"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-4.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-4"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-4"
+						>Marcel van den Broek</a
+					  >
+					</div>
+				  <!--//profile-->
+				</div>
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 0.1: Python and R for Microbiome Analysis
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Marcel van den Broek</div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong>Katarina Kruščić</div>
+				  <div class="desc">
+					Basic programming skills tailored to microbiome data analysis,
+					covering essential syntax and data manipulation. Practical
+					exercises in sequence analysis and visualization.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-other">
+				<div class="meta">
+				  <h4 class="time mb-3">13:00 - 14:00</h4>
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Lunch Break</h3>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">14:00 - 17:30</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-5"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-5"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-5.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-5"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-5"
+						>Milan Dragićević</a
+					  >
+					</div>
+				  </div>
+				 
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 1.1: Data Import and Quality Filtering
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Milan Dragićević and Alfonso Esposito</div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong> Marcel van den Broek</div>
+				  <div class="desc">
+					Hands-on training using R/Python to import, preprocess, and
+					filter sequencing data.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">17:30 - 19:30</h4>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Poster Session with Catering and Drinks
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="desc">
+					Opportunity for participants to present their research and
+					network informally.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			</div>
+			<!--//tab-1-content-->
+
+
+
+			<div id="tab-2-content" class="tab-pane" role="tabpanel" aria-labelledby="tab-2">
+				<div class="schedule-introduction">
+					<p id="tab-2-title" style="font-size: 24px; font-weight: bold;">Day 2: Genome and Metagenome Analysis</p>
+				  </div>
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">9:00 - 12:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-5"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-5"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-5.jpg"
+						alt=""
+					  />
+					</a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-5"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-5"
+						>Milan Dragićević</a
+					  >
+					</div> <!--//name-->
+				</div> <!--//profile-->
+				</div> <!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Practical 1.2: Amplicon Data Analysis</h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Milan Dragićević </div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong> Katarina Kruščić</div>
+				  <div class="desc">
+					Step-by-step processing and taxonomic classification of amplicon
+					sequencing data using bioinformatics tools.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">12:00 - 13:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-7"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-7"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-7.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-7"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-7"
+						>Alexandre Jousset</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Lecture Keynote</h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Alexandre Jousset</div>
+				  <div class="desc">
+					Lecture description
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+
+			<!--//item-->
+				<div class="item item-other">
+					<div class="meta">
+				  		<h4 class="time mb-3">13:00 - 14:00</h4>
+					</div>
+					<!--//meta-->
+					<div class="content">
+				  		<h3 class="title mb-3">Lunch Break</h3>
+					</div>
+					<!--//content-->
+				</div>
+			<!--//item-->
+
+
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">14:00 - 17:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-8"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-8"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-8.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-8"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-8"
+						>Jo&atilde;o Saraiva</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Shotgun Metagenomics and Functional Annotation
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Jo&atilde;o Saraiva</div>
+				  <div class="desc">
+					Lecture on metagenomics for functional profiling and annotation
+					of microbial communities.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">17:00 - 18:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-6"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-6"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-6.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-6"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-6"
+						>Alfonso Esposito</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 1.4: Metagenome Assembly and Functional Annotation
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Alfonso Esposito</div>
+				  <div class="desc">
+					Hands-on training to assemble metagenomic data and annotate
+					functional genes within microbial communities.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			</div>
+			<!--//tab-2-content-->
+
+
+			<div id="tab-3-content" class="tab-pane" role="tabpanel" aria-labelledby="tab-3">
+				<div class="schedule-introduction">
+					<p id="tab-3-title" style="font-size: 24px; font-weight: bold;">Day 3: Genome and Metagenome Analysis</p>
+				  </div>
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">9:00 - 10:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-9"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-9"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-9.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-9"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-9"
+						>Prateek Shetty</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Functional Genomics</h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Prateek Shetty</div>
+				  <div class="desc">
+					Lecture on linking gene functions to overall community function,
+					using metagenomic and functional annotation tools.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">10:00 - 13:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-9"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-9"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-9.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-9"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-9"
+						>Prateek Shetty</a
+					  >
+					</div>
+				  </div>
+				  
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 1.5: Functional Profiling and Data Visualization
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Prateek Shetty</div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong>Katarina Kruščić</div>
+				  <div class="desc">
+					Hands-on work to visualize and interpret functional profiles
+					within microbial genomes and communities, focusing on
+					applications relevant to agriculture and environmental
+					microbiomes.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-other">
+				<div class="meta">
+				  <h4 class="time mb-3">13:00 - 14:00</h4>
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Lunch Break</h3>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">14:00 - 15:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-10"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-10"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-10.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-10"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-10"
+						>Timmy Paez Watson</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Introduction to Stoichiometric Modeling of Metabolism
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Timmy Paez Watson</div>
+				  <div class="desc">
+					Lecture covering foundational concepts in metabolic rates, mass
+					balances, and basic stoichiometric modeling.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">15:00 - 18:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-10"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-10"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-10.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-10"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-10"
+						>Timmy Paez Watson</a
+					  >
+					</div>
+				  </div>
+				  
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 2.1: Basic Stoichiometric Modeling
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Timmy Paez Watson</div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong>Minke Gabriels</div>
+				  <div class="desc">
+					Hands-on work on stoichiometric models.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			</div>
+			<!--//tab-3-content-->
+
+
+
+			<div id="tab-4-content" class="tab-pane" role="tabpanel" aria-labelledby="tab-4">
+				<div class="schedule-introduction">
+					<p id="tab-4-title" style="font-size: 24px; font-weight: bold;">Day 4: Genome and metagenome-scale metabolic modeling</p>
+				  </div>
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">9:00 - 10:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-12"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-12"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-12.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-12"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-12"
+						>Karel Olavarria</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					COBRA and analysis of genome-scale metabolic models
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Karel Olavarria </div>
+				  <div class="desc">
+					Theory of metabolic network models, focusing on community-wide
+					metabolic interactions and resource flows.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">10:00 - 13:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-12"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-12"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-12.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-12"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-12"
+						>Karel Olavarria</a
+					  >
+					</div><!--//name-->
+				 </div><!--//profile-->
+				</div><!--//meta-->
+
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 2.3. COBRA and analysis of genome-scale metabolic
+					models
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Karel Olavarria </div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong>Minke Gabriels </div>
+				  <div class="desc">
+					Hands-on session using FBA to simulate microbial metabolic
+					networks and predict interspecies interactions.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-other">
+				<div class="meta">
+				  <h4 class="time mb-3">13:00 - 14:00</h4>
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Lunch Break</h3>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">14:00 - 15:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-2"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-2"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-2.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-2"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-2"
+						>Đorđe Bajić</a
+					  >
+					</div>
+				  </div>
+				</div><!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Metabolic modeling of microbial communities
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Đorđe Bajić </div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong>Minke Gabriels </div>
+
+				  <div class="desc">
+					Lecture on the application of metabolic modeling to microbial
+					communities.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">15:00 - 18:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-2"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-2"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-2.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-2"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-2"
+						>Đorđe Bajić</a
+					  >
+					</div>
+				  </div>
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 2.4. Metabolic modeling of microbial communities
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Đorđe Bajić </div>
+				  <div class="assistant mb-3"><strong> Teaching: </strong>Minke Gabriels </div>
+				  <div class="desc">
+					Hands-on work on the application of metabolic modeling to
+					microbial communities.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			</div>
+			<!--//tab-4-content-->
+
+
+
+			<div id="tab-5-content" class="tab-pane" role="tabpanel" aria-labelledby="tab-4">
+				<div class="schedule-introduction">
+					<p id="tab-5-title" style="font-size: 24px; font-weight: bold;">Day 5: Statistical approaches and AI for predicting and engineering microbial
+						communities</p>
+				  </div>
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">9:00 - 10:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-13"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-13"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-13.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-13"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-13"
+						>Juan Diaz Colunga</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Structure-Function Mapping for Microbial Consortia
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Juan Diaz Colunga </div>
+				  <div class="desc">
+					Introduction to predictive models that map species composition
+					to community function, with applications in synthetic community
+					design.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">10:00 - 13:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-13"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-13"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-13.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-13"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-13"
+						>Juan Diaz Colunga</a
+					  >
+					</div>
+				  </div>
+				</div><!--//meta-->
+
+				<div class="content">
+				  <h3 class="title mb-3">
+					Practical 3.1: Structure-Function Landscape Analysis and
+					Prediction
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Juan Diaz Colunga and Đorđe Bajić </div>
+				  <div class="desc">
+					Hands-on application of structure-function mapping to optimize
+					microbial communities for targeted functions in agriculture.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-other">
+				<div class="meta">
+				  <h4 class="time mb-3">13:00 - 14:00</h4>
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Lunch Break</h3>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">14:00 - 15:00</h4>
+				  <div class="profile">
+					<a
+					  href="#modal-speaker-14"
+					  data-bs-toggle="modal"
+					  data-bs-target="#modal-speaker-14"
+					  ><img
+						class="profile-image rounded-circle mb-2"
+						src="assets/images/speakers/speaker-14.jpg"
+						alt=""
+					/></a>
+					<div class="name">
+					  <a
+						class="theme-link"
+						href="#modal-speaker-14"
+						data-bs-toggle="modal"
+						data-bs-target="#modal-speaker-14"
+						>Sascha Patz</a
+					  >
+					</div>
+				  </div>
+				  <!--//profile-->
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">
+					Introduction to Machine Learning in Microbiome Science
+				  </h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="speakers mb-3"><strong> Speaker: </strong>Sascha Patz </div>
+				  <div class="desc">
+					Overview of machine learning applications in microbiome research
+					(no hands-on session).
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			  <div class="item item-talk">
+				<div class="meta">
+				  <h4 class="time mb-3">15:00 - 17:30</h4>
+				</div>
+				<!--//meta-->
+				<div class="content">
+				  <h3 class="title mb-3">Closing Discussion</h3>
+				  <div class="location mb-3">Conference Room A</div>
+				  <div class="desc">
+					Reflection on workshop outcomes, future directions in microbiome
+					research, and opportunities for collaboration.
+				  </div>
+				</div>
+				<!--//content-->
+			  </div>
+			  <!--//item-->
+			
+			<div class="item item-other">
+			  <div class="meta">
+				<h4 class="time mb-3">18:30 -</h4>
+			  </div>
+			  <!--//meta-->
+			  <div class="content">
+				<h3 class="title mb-3">
+				  Closing Celebration with dinner and drinks
+				</h3>
+			  </div>
+			  <!--//content-->
+			</div>
+			<!--//item-->
+			<!--//tab-5-content-->
+		  </div>
+		  <!--//schedule-tab-content-->
+
+		  
+		</div>
+		<!--//container-->
+	  </section>
+	
+	  <section id="tickets-section" class="tickets-section section theme-bg-light">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Register</h3>
+			<div class="row pricing mb-5 justify-content-center">
+				<!-- Early Bird Card -->
+				<div class="col-12 col-md-4 p-2 p-lg-4">
+					<div class="card card-special rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0">Early Bird Registration</h4>
+							</div>
+							<div class="info p-3">
+								<div class="price-figure px-3" style="font-size: 1rem;">
+									<div class="d-flex justify-content-between mb-2">
+										<span>Regular/Professionals:</span>
+										<span><strong>€350</strong></span>
+									</div>
+									<div class="d-flex justify-content-between">
+										<span>Students and Early Career Scientists:</span>
+										<span><strong>€250</strong></span>
+									</div>
+								</div>
+								<br>
+								<div class="desc px-3 text-center">
+									For payments before <strong>30 June</strong> 2025
+								</div>
+							</div><!--//info-->
+						</div><!--//card-body-->
+						<div class="card-footer text-center">
+							<a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSesCLXRzv14tTAxTxRZpfK8Mx1ThyrRLxmtqqnQFqSiipk5gg/viewform?usp=header " target="_blank">
+								Register Now
+							</a>
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+	
+				<!-- Regular Card -->
+				<div class="col-12 col-md-4 p-2 p-lg-4">
+					<div class="card rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0 ">Regular Registration</h4>
+							</div>
+							<div class="info p-3">
+								<div class="price-figure px-3" style="font-size: 1rem;">
+									<div class="d-flex justify-content-between mb-2">
+										<span>Regular/Professionals:</span>
+										<span><strong>€450</strong></span>
+									</div>
+									<div class="d-flex justify-content-between">
+										<span>Students and Early Career Scientists:</span>
+										<span><strong>€350</strong></span>
+									</div>
+								</div>
+								<br>
+								<div class="desc px-3 text-center">
+									From <strong>1 July</strong> to <strong>1 August</strong> 2025
+								</div>
+							</div><!--//info-->
+						</div><!--//card-body-->
+						<div class="card-footer text-center">
+							<a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSesCLXRzv14tTAxTxRZpfK8Mx1ThyrRLxmtqqnQFqSiipk5gg/viewform?usp=header " target="_blank">
+								Register Now
+							</a>
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<!-- On-site Card -->
+				<div class="col-12 col-md-4 p-2 p-lg-4">
+					<div class="card rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0 ">On-site Registration</h4>
+							</div>
+							<div class="info p-3">
+								<div class="price-figure px-3" style="font-size: 1rem;">
+									<br>
+									<div class="d-flex justify-content-between mb-2">
+										<span>Regular/Professionals:</span>
+										<span><strong>€550</strong></span>
+									</div>
+									<div class="d-flex justify-content-between">
+										<span>Students and Early Career Scientists:</span>
+										<span><strong>€450</strong></span>
+									</div>
+									<br>
+									<div class="d-flex justify-content-between">
+										<span><strong>Note:</strong> All payments made <strong>after August 1st</strong> will be charged at the same rate as on-site registration</span>
+									</div>
+								</div>
+	
+							</div><!--//info-->
+						</div><!--//card-body-->
+					</div><!--//card-->
+				</div><!--//col-->
+			</div><!--//pricing-->
+		</div>
+
+		<div class="hero-cta" style="text-align: center; margin: 20px 0 50px;">
+  			<a class="btn btn-danger btn-lg" href="https://forms.gle/EMG11kW6TnS2SKL56" target="_blank">
+    			Pay Registration fee and Book Accommodation!
+  			</a>
+		</div>
+		
+<!--Important dates-->
+		<h3 class="section-heading text-center mb-3">Important to consider when applying for a fellowship:</h3>
+		<div class="section-intro single-col-max mx-auto mb-4">
+    			<div class="row">
+        			<div class="col-12 col-sm-10 col-md-8 offset-md-2">
+            				<p>
+               				  Abstract, CV and motivation letter are required for fellowship applicants. Please submit these in the corresponding section in the registration form.
+            				</p>
+            				<p>
+               				  <strong>Abstract submission deadline for professionals:</strong> <del>May 25</del> <strong><span style="color: red;">June 15</span></strong>
+            				</p>
+            				<p>
+               				  <strong>Abstract and grant status confirmation:</strong> <del>May 30</del> <strong><span style="color: red;">June 20</span></strong>
+            				</p>
+            				<p>
+                			   <a href="https://github.com/BGmicrobiomes/bgmicrobiomes.github.io/raw/main/Abstract_template_BiomeFUN_25.docx" download>
+                    				Download abstract template
+                			   </a>
+            				</p>
+        			</div>
+    			</div>
+		</div>
+<!--End important dates-->
+
+	
+		<div class="offers text-center bg-white p-4 p-lg-5">
+			<h4 class="mb-3">What's included?</h4>
+			<ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
+				<li><span class="icon-holder me-2"><i class="fas fa-user-tie"></i></span>9 talks from leading experts in bioinformatics</li>
+				<li><span class="icon-holder me-2"><i class="fas fa-people-carry"></i></span>Access to 9 workshops</li>
+				<li><span class="icon-holder me-2"><i class="fas fa-glass-cheers"></i></span>Amazing after-parties</li>
+				<li><span class="icon-holder me-2"><i class="fas fa-utensils"></i></span>Coffee & Snacks breaks, Lunches, Workshop dinner</li>
+				<li><span class="icon-holder me-2"><i class="fa-solid fa-tree"></i></span>Visit to the Botanical Garden</li>
+				<li><span class="icon-holder me-2"><i class="fas fa-book"></i></span>Certificate of attendance on course completion</li>
+				<li><span class="d-flex align-items-start"><span class="icon-holder me-2 mt-1"><i class="fas fa-gift"></i></span><span>Materials and comprehensive resources, including access<br>to relevant datasets and online tools for extended learning</span></li>
+			</ul><!--//offers-list-->
+		</div><!--//offers-->
+	</div><!--//container-->
+	</section><!--//tickets-section-->
+	
+	
+	
+	<section id="venue-section" class="venue-section section  theme-bg-primary text-white">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5 text-white">Venue</h3>
+          <h3 class="section-heading-name text-center mb-5 text-white"> <strong>Hotel Palace</strong></h3>
+           <h3 class="section-heading-adress text-center mb-5 text-white">Adress: Topličin Venac 23, 11000 Belgrade</h3>
+			<div class="row gx-5 py-lg-5">
+				<div class="col-12 col-lg-7 h-100">
+					<div class="desc">
+						<h4 class="text-white mb-3">About Hotel</h4>
+						<p>
+							Palace Hotel Belgrade is located in the very heart of Belgrade, in the immediate vicinity of the main pedestrian area of Knez Mihailova Street. It has a very convenient location in a quiet part of the city, close to historical and cultural sights, city and state institutions, museums, theaters, cinemas, numerous shopping centers as well as Shkadarlija - the old bohemian quarter. It is intended for vacation both for business people and for those who travel for pleasure. Palace Hotel Belgrade is categorized as a 4-star hotel.
+						</p>
+						<h4 class="text-white mb-3">How To Get Here</h4>
+						<div class="et_pb_module et_pb_image et_pb_image_4">
+							<a href="https://www.google.com/maps/dir/44.7879673,20.516884/hotel+palas+putanja/@44.8025683,20.4499074,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x475a654d41e00529:0x190634b57d227b4c!2m2!1d20.4540267!2d44.81657" target="_blank">
+								<span class="et_pb_image_wrap">
+									<img loading="lazy" decoding="async" width="735" height="318" 
+									src="https://palacehotel.rs/wp-content/uploads/2022/12/Mapa-Hotela.jpg" class="map-image" alt="Palace hotel location" title="Hotel Map"
+									srcset="https://palacehotel.rs/wp-content/uploads/2022/12/Mapa-Hotela.jpg 735w, https://palacehotel.rs/wp-content/uploads/2022/12/Mapa-Hotela-1280x553.jpg 1280w, https://palacehotel.rs/wp-content/uploads/2022/12/Mapa-Hotela-980x424.jpg 980w, https://palacehotel.rs/wp-content/uploads/2022/12/Mapa-Hotela-480x208.jpg 480w"
+									sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1478px, 100vw">
+								</span>
+							</a>
+						</div>
+					
+						<div class="row pt-3">
+							<div class="col-12 col-md-6 mb-4">
+								<div class="grid-item p-4">
+									<h5 class="text-white mb-3 title"><i class="fas fa-bus-alt me-2"></i>By Bus</h5>
+									<p>
+										<strong>1. By Bus from Nikola Tesla Airport:</strong><br>
+										Take bus <strong>72</strong> from the airport and exit at the <strong>'Brankov Most'</strong> station (about a 30-35 minute ride). From there, it's a <strong>310-meter walk</strong> to the <strong>Palace Hotel</strong>.<br><br>
+										<strong>2. By Minibus from Nikola Tesla Airport:</strong><br>
+										Alternatively, you can take <strong>minibus A1</strong> from the airport and exit at the last stop, <strong>Slavija</strong>. From here, you have two options:
+										<ul>
+											<li>Take a <strong>15-minute walk</strong> through the city center to reach the hotel.</li>
+											<li>Or, catch one of the following public transport options:
+												<ul>
+													<li>Bus <strong>31</strong>, <strong>Eco2</strong>, or trolley <strong>29</strong>, and exit at <strong>'Studentski Trg'</strong> station. The hotel is just a <strong>2-minute walk</strong> from the station.</li>
+												</ul>
+											</li>
+										</ul>
+										<strong>Note:</strong> Public transportation in Belgrade is <strong>free</strong>.
+									</p>
+								</div><!--//grid-item-->
+							</div><!--//col-->
+					
+							<div class="col-12 col-md-6 mb-4">
+								<div class="grid-item p-4">
+									<h5 class="text-white mb-3 title"><i class="fas fa-car me-2"></i>By Taxi</h5>
+									<p>Alternatively, you can take a taxi from Nikola Tesla Airport. Please note that the ride should cost around <strong>€30</strong>. It’s recommended to discuss the price with the driver before you get in.</p>
+								</div><!--//grid-item-->
+							</div><!--//col-->
+						</div><!--//row-->
+					</div><!--//desc-->					
+				</div><!--//col-->
+				<div class="col-12 col-xl-3 col-lg-4 offset-lg-1 position-relative h-100 mt-5 mt-lg-0">
+					<div class="figures-holder">
+						<div class="figure figure-1"><img class="shadow" src="assets/images/venue/venue-1.jpg" alt=""></div>
+						<div class="figure figure-2"><img class="shadow" src="assets/images/venue/venue-2.jpg" alt=""></div>
+						<div class="figure figure-3"><img class="shadow" src="assets/images/venue/venue-3.jpg" alt=""></div>
+						<div class="figure figure-4"><img class="shadow" src="assets/images/venue/venue-4.jpg" alt=""></div>
+					</div><!--//figures-holder-->
+				</div><!--//col-->
+			</div><!--//row-->
+		</div><!--//container-->
+	</section><!--//venue-section-->
+
+	<section id="contact-section" class="contact-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Contact</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">
+				For any further information, feel free to contact us via our email!
+			</div>
+			<div class="row pricing mb-5">
+				<div class="col-12 col-md-4 p-2 p-lg-4">
+					<div class="card rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading  text-center p-3">
+								<h4 class="text-white mb-0">Workshop email</h4>
+							</div>
+							<br> <br>
+    						<!-- Image -->
+    						<div class="et_pb_module et_pb_image text-center">
+        						<span class="et_pb_image_wrap">
+            						<img loading="lazy" decoding="async" width="64" height="64"
+                					src="https://palacehotel.rs/wp-content/uploads/2022/12/Real-estate-agent-icon-05.png"
+                					alt="Email Icon">
+        						</span>
+    						</div>
+
+   							 <!-- Email -->
+    						<div class="info p-3 text-center">
+        						<div class="card-footer">
+            						<a href="mailto:belgrademicrobiomeworkshop@gmail.com" class="text-dark">
+                						belgrademicrobiomeworkshop@gmail.com
+            						</a>
+        						</div>
+    						</div>
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+
+
+				<div class="col-12 col-md-4 p-2 p-lg-4">
+					<div class="card card-special rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading  text-center p-3">
+								<h4 class="text-white mb-0">Agency contact</h4>
+							</div>
+							<br> <br>
+    						<!-- Image -->
+    						<div class="et_pb_module et_pb_image text-center">
+        						<span class="et_pb_image_wrap">
+            						<img loading="lazy" decoding="async" width="64" height="64"
+                					src="https://palacehotel.rs/wp-content/uploads/2022/12/Real-estate-agent-icon-07.png"
+                					alt="Phone Icon">
+        						</span>
+    						</div>
+
+   							 <!-- Phone -->
+    						<div class="info p-3 text-center">
+        						<div class="et_pb_text_inner">
+									<p>
+										For information about payment and invoice, please contact our agency "Impala" 
+										<br>
+										<br>
+										+381-11-249-78-82 
+									</p>
+									<a href="mailto:office@impalayu.com" class="text-dark">
+                						office@impalayu.com
+            						</a>
+								</div>
+    						</div>
+						</div><!--//cardbody-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-12 col-md-4 p-2 p-lg-4">
+					<div class="card card-special rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading  text-center p-3">
+								<h4 class="text-white mb-0">Adress</h4>
+							</div>
+							<br> <br>
+    						<!-- Image -->
+    						<div class="et_pb_module et_pb_image text-center">
+        						<span class="et_pb_image_wrap">
+            						<img loading="lazy" decoding="async" width="64" height="64"
+                					src="https://palacehotel.rs/wp-content/uploads/2022/12/Real-estate-agent-icon-21.png"
+                					alt="Adress Icon">
+        						</span>
+    						</div>
+
+   							 <!-- Adress -->
+    						<div class="info p-3 text-center">
+        						<div class="et_pb_text_inner">
+									<p>
+										Toplicin Venac 23 <br>
+										11000 Belgrade
+									</p>
+								</div>
+    						</div>
+						</div><!--//cardbody-->
+					</div><!--//card-->
+				</div><!--//col-->
+			</div><!--//pricing-->
+		</div><!--//container-->
+</section>
+	
+	<section id="sponsors-section" class="sponsors-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Sponsors &amp; Partners</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">Want to become a sponsor? Get in touch lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat magna eu accumsan mattis.</div>
+			<div class="row logos justify-content-center">
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-1.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-2.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-3.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-4.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-5.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-6.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-7.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-8.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-9.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-10.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-11.svg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-12.svg" alt=""></div>
+			</div><!--//row-->
+			<div class="sponsors-cta text-center pt-5"><a class="btn-primary btn btn-lg" href="#">Become A Sponsor</a></div>
+		</div><!--//container-->
+	</section><!--//sponsors-section-->
+
+	<footer class="footer py-5 theme-bg-primary">
+		<div class="container text-center">
+			
+			<ul class="social-list list-inline mb-4"> 
+				<li class="list-inline-item me-3"><a href="#"><i class="fas fa-envelope"></i></a></li>
+				<li class="list-inline-item me-3"><a href="#"><i class="fa-brands fa-x-twitter fa-fw"></i></a></li>
+				<li class="list-inline-item me-3"><a href="#"><i class="fa-brands fa-instagram fa-fw"></i></a></li>
+				<li class="list-inline-item me-0"><a href="#"><i class="fa-brands fa-youtube fa-fw"></i></a></li>
+			</ul><!--//social-list-->
+			
+			
+			<ul class="footer-links list-inline mx-auto mb-4">
+				<li class="list-inline-item"><a href="#">Code of Conduct</a></li>
+				<li class="list-inline-item">|</li>
+				<li class="list-inline-item"><a href="#">Terms</a></li>
+				<li class="list-inline-item">|</li>
+				<li class="list-inline-item me-0"><a href="#">Privacy</a></li>
+			</ul><!--//footer-link-->
+			
+			 <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+			<small class="copyright">Designed with <i class="fas fa-heart" style="color: #EC645E;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+			
+		</div><!--//container-->	    
+	</footer>
+
+	<!-- Modal Speaker 1 -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-1" tabindex="-1" role="dialog" aria-labelledby="speaker-1-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-1.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Ivica Dimkić, Ph.D.</h2>
+								<div class="meta">Full Research Professor</div>
+								<div class="meta mb-2">Chair of Biochemistry and Molecular Biology, University of Belgrade - Faculty of Biology</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/ivica-dimkic-66202432?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-linkedin-in fa-fw"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Dimkić has been involved as a project leader of several international  and national projects, while from 2021, he became the head of the Innovation Project "Smart Bio Fertilizer'' within the Mini-Grants Program, Innovation Fund of the Republic of Serbia, Science Technology Park Belgrade, thanks to which he founded the startup company BioCombact. Additionally, the Dr. Dimkić is involved in various projects funded by companies and enterprises from the R&D sector regarding the development of smart solutions for sustainable agriculture. The team of Dr. Dimkić have nearly two decades of experience in the field of applied and environmental microbiology, and biotechnological potential in biological control and plant protection. Dr. Dimkić has significant experience in microbial isolation and identification, and an excellent knowledge of microbial diversity in different habitats, including plant-pathogen interactions. </p>
+						<p class="mb-0">Also, he is a proven scientist in the field of applied microbiology and biocontrol strategies, including knowledge of state-of-the-art sequencing techniques of microbiomes and whole genomes. Additionally, Dr. Dimkić has complementary expertise to the biotechnological background and collaboration with many industrial partners. Dr. Dimkić is among 10% of the excellent researchers in Serbia for the period from 2018-2022, and third on the list in his category.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+<!--Modal speaker 13-->
+<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-13" tabindex="-1" role="dialog" aria-labelledby="speaker-13-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-13-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-13.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Juan Diaz-Colunga, Ph.D.</h2>
+								<div class="meta">Junior Group Leader</div>
+								<div class="meta mb-2">Spanish National Research Council, Spain</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/juan-d%C3%ADaz-colunga-62844092?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABOkV4ABP9Ci1zihQ8YzYMNLbAe-U7B_TQ0&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B8gm7IcPpQ66LmC0f%2BRl0lg%3D%3D" target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-linkedin-in fa-fw"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Juan Diaz-Colunga is a Junior Group Leader at the Asturian Institute of Lactic Products (IPLA-CSIC) in Oviedo, Spain. He completed his post- and pre-doctoral training at the Department of Ecology and Evolutionary Biology at Yale University and the Spanish National Center for Biotechnology.</p>
+						<p class="mb-0">He is broadly interested in the fields of systems biology, evolutionary genetics, and microbial ecology. Most recently, his work has aimed to develop mathematical frameworks to model interactions between biological components, from genes within a genome to species within an ecosystem. He uses a combination of experimental, theoretical, and computational methods to address fundamental questions on how populations and communities of (micro)organisms evolve, respond to perturbations, and carry out biotechnologically-relevant functions.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+<!--Modal speaker 5-->
+<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-5" tabindex="-1" role="dialog" aria-labelledby="speaker-5-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-5-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-5.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Milan Dragićević, Ph.D.</h2>
+								<div class="meta">Senior AI Solution Developer</div>
+								<div class="meta mb-2">Parexel International</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/milan-dragicevic-r?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC6fsi4B9Jn7sN0BVIxZ_lDD9S76BcEnDeY&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BO55QyYBaRyylUv%2F1Ae6n6Q%3D%3D" target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-linkedin-in fa-fw"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Dragićević leverages his foundation in plant biochemistry through biological data analysis. His research focuses on nitrogen assimilation (how plants take up and use nitrogen), secondary metabolism (the unique compounds plants produce), and specific plant proteins (hydroxyproline-rich glycoproteins). He has contributed to several national and international projects, including notable initiatives like TERPMED and CHIC, which aimed to identify and explore the production of bioactive compounds by plants.</p>
+						<p class="mb-0">Dr. Dragićević specializes in processing large-scale data from sequencing and mass spectrometry, focusing on the relationship between molecular structure and function. Currently, he applies these data handling and analytical approaches to automate and standardize workflows for clinical trial data.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+<!--Modal speaker 12-->
+<div class="modal modal-speaker modal-speaker-12" id="modal-speaker-12" tabindex="-1" role="dialog" aria-labelledby="speaker-12-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-12-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-12.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Karel Olavarria, Ph.D.</h2>
+								<div class="meta">Postdoc Researcher of Microbial Metabolism</div>
+								<div class="meta mb-2">Delft University of Technology, the Netherlands</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/karel-olavarria-51b7761b3?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADHE5mcBxNExV0n4HgwFdnpY-ERkywHd0Ac&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BUk3qw0mYRPGyqFvEr7p21w%3D%3D" target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-linkedin-in fa-fw"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Karel Olavarría holds a background in Biology, with research focused on elucidating the operational logic of microbial metabolism. By integrating theoretical approaches—including kinetic, stoichiometric, and thermodynamic modeling—with experimental techniques such as molecular biology, enzyme kinetics, analytical biochemistry, and microbial physiology, he has investigated various aspects of metabolism in both pure and mixed microbial cultures.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+<!--Modal speaker 10-->
+<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-10" tabindex="-1" role="dialog" aria-labelledby="speaker-10-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-10-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-10.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Timmy Paez Watson, Ph.D.</h2>
+								<div class="meta">Postdoc</div>
+								<div class="meta mb-2">Delft University of Technology, the Netherlands</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/timothy-p%C3%A1ez-watson-269968159?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACYNGXEBYPmiObTf2sNUzcVuo5zRioWcpTs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BKDtSq9U1SmqcSeb8qXNfQA%3D%3D" target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-linkedin-in fa-fw"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Timmy Paez Watson is a microbial systems biologist with a passion for both research and education. He earned his PhD in Environmental Biotechnology from Delft University of Technology, where he studied microbial communities in dynamic environments. His work combines molecular techniques, computational approaches, and systems thinking to better understand and harness microbiomes for sustainable applications.</p>
+						<p class="mb-0">Alongside his research, he is an enthusiastic educator, known for developing engaging and practice-based learning experiences in microbiology and biotechnology. He was recently awarded “Teacher of the Year” for his innovative and student-centered teaching approach. He is committed to supporting early-career researchers and promoting interdisciplinary collaboration in science and education.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+	
+<!--Modal speaker 6-->
+<div class="modal modal-speaker modal-speaker-6" id="modal-speaker-6" tabindex="-1" role="dialog" aria-labelledby="speaker-6-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-6-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-6.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Alfonso Esposito, Ph.D.</h2>
+								<div class="meta">Professor</div>
+								<div class="meta mb-2">University of Verona, Italy</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.dbt.univr.it/;jsessionid=abcjbk21sTgozdf1X59jz?ent=persona&id=90125&lang=en" target="_blank" rel="noopener noreferrer">
+											<i class="fa-solid fa-building-columns"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Esposito has contributed to various projects in environmental microbiology and microbial genomics, including the characterization of alpine spring water and plant-associated microbiomes under both healthy and diseased conditions.</p>
+						<p class="mb-0">His current research focuses on leveraging bioinformatics approaches to address complex biological questions in both prokaryotic and eukaryotic systems.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!--Modal speaker 9-->
+<div class="modal modal-speaker modal-speaker-9" id="modal-speaker-9" tabindex="-1" role="dialog" aria-labelledby="speaker-9-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-9-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-9.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Prateek Shetty, Ph.D.</h2>
+								<div class="meta">Postdoc</div>
+								<div class="meta mb-2">Matthias-Schleiden-Institut, Germany</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://orcid.org/0000-0002-8520-690X" target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-orcid"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Shetty is a postdoctoral researcher at the Matthias-Schleiden-Institut in Germany, working within the Cluster of Excellence "Balance of the Microverse." He has a Ph.D. in Biology from the University of Szeged, Hungary.</p>
+						<p class="mb-0"> Dr. Shetty's research explores microbial interactions in algal systems, wastewater remediation, and biogas microbiomes, leveraging omics technologies to uncover the molecular dialogues shaping these complex ecosystems.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!--Modal speaker 8-->
+<div class="modal modal-speaker modal-speaker-8" id="modal-speaker-8" tabindex="-1" role="dialog" aria-labelledby="speaker-8-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-8-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-8.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">João Pedro Saraiva, Ph.D.</h2>
+								<div class="meta">Senior Scientist</div>
+								<div class="meta mb-2">Helmholtz Centre for Environmental Research GmbH - UFZ, Germany</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.ufz.de/index.php?en=43566" target="_blank" rel="noopener noreferrer">
+											<i class="fa-solid fa-building-columns"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Joao Pedro Saraiva is a Senior Scientist in the Microbial Interaction Ecology Group at the Helmholtz Centre for Environmental Research – UFZ in Leipzig, Germany. With a strong background in bioinformatics and microbial ecology, his work focuses on understanding complex microbial systems, particularly microbial interactions driven by functional complementarity and whole-genome sequencing approaches. Dr. Saraiva earned his PhD in Bioinformatics from the Faculty of Medicine, Friedrich Schiller University in Jena, Germany, and holds an MSc in Bioinformatics from the Institute of Biotechnology and Bioengineering at the University of Minho in Braga, Portugal.</p>
+						<p class="mb-0">He also holds a degree in Biotechnology Engineering from the Polytechnic Institute of Bragança. He previously worked as a Postdoctoral Associate in the Microbial Systems Bioinformatics group at UFZ, and as a Research Associate at the University of Minho. His current research is centered on the risk assessment of low-risk pesticides (RATION) and improving the identification and characterization of soil protists.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+		<!--Modal speaker 2-->
+<div class="modal modal-speaker modal-speaker-2" id="modal-speaker-2" tabindex="-1" role="dialog" aria-labelledby="speaker-2-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-2-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-2.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Đorđe Bajić, Ph.D.</h2>
+								<div class="meta">Assistant Professor</div>
+								<div class="meta mb-2">Delft University of Technology, the Netherlands</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.tudelft.nl/tnw/over-faculteit/afdelingen/biotechnology/research-sections/industrial-microbiology/djordje-bajic-group" target="_blank" rel="noopener noreferrer">
+											<i class="fa-solid fa-building-columns"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Dr. Bajić works at the interface of microbial community ecology, systems biology, and biotechnology. His research group at the Department of Biotechnology, TU Delft (The Netherlands) aims to develop predictive models for how microbial communities assemble and function. Ultimately, the goal is to translate these fundamental insights to engineer microbiomes for practical applications in biotechnology and agriculture.</p>
+						<p class="mb-0">Before joining TU Delft, Đorđe trained at the National Center for Biotechnology (Spain), Biological Research Center (Hungary), and at Yale University (USA), where he helped lead efforts to develop new metabolic modeling tools and integrate them with experimental studies of microbial communities.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+			<!--Modal speaker 7-->
+<div class="modal modal-speaker modal-speaker-7" id="modal-speaker-7" tabindex="-1" role="dialog" aria-labelledby="speaker-7-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-7-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-7.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Alexandre Jousset, Ph.D.</h2>
+								<div class="meta">CEO of Cybiome GmbH</div>
+								<div class="meta mb-2">Cybiome GmbH, Switzerland</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/alexandre-jousset-528379/" target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-linkedin-in fa-fw"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p> Dr. Jousset is CEO of the biotechnology company Cybiome GmbH and professor at Nanjing Agricultural University. He ranks among the top 2% microbial ecology researchers (Stanford global ranking). He holds a PhD from he Technical University in Darmstadt and was professor at Utrecht University.</p>
+						<p class="mb-0">His work combines theoretical ecology with microbial genetics and bioinformatics to unlock the power of environmental microbiomes. His goal is to unravel universal predictors microbiome functioning by drawing on general theories rather than idiosyncratic traits.
+His company designs microbiome digital twins to answer biotechnology grand challenges around sustainable agriculture. He leverages this technology to improve microbiome ability to prevent diseases, improve plant nutrition or degrade recalcitrant pollutants. </p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+			<!--Modal speaker 4-->
+<div class="modal modal-speaker modal-speaker-4" id="modal-speaker-4" tabindex="-1" role="dialog" aria-labelledby="speaker-4-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-4-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-4.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Marcel van den Broek, Ph.D.</h2>
+								<div class="meta">Bioinformatician</div>
+								<div class="meta mb-2">Delft University of Technology, the Netherlands</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/the-delft-bioinformatics-lab/people/marcel-van-den-broek" target="_blank" rel="noopener noreferrer">
+											<i class="fa-solid fa-building-columns"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p> Dr. van den Broek works in the Industrial Microbiology group at Delft University of Technology. His work primarily involves (meta)genomics projects, including variant calling, de novo assembly, and transcriptomics, utilizing next-generation sequencing technologies such as Illumina, Oxford Nanopore, and PacBio.</p>
+						<p class="mb-0"> Additionally, he contributes to teaching the "Molecular Biotechnology and Genomics" master's course and the "Multi-Omics Approaches for Improvement of Industrial Microbes" advanced course.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+				<!--Modal speaker 14-->
+<div class="modal modal-speaker modal-speaker-14" id="modal-speaker-14" tabindex="-1" role="dialog" aria-labelledby="speaker-14-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-14-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-14.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Sascha Patz, Ph.D.</h2>
+								<div class="meta">Bioinformatician</div>
+								<div class="meta mb-2">Julius Kühn Institute (JKI) - Federal Research Center for Cultivated Plants, Germany</div>
+								<ul class="social-list list-inline mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.linkedin.com/in/sascha-patz-412591244/" target="_blank" rel="noopener noreferrer">
+											<i class="fa-brands fa-linkedin-in fa-fw"></i>
+										</a>
+									</li>
+								</ul> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p> Dr. Patz is a leading expert in metagenomics data analysis at Computomics, where he focuses on applying advanced bioinformatics and machine learning to microbial
+community profiling across agriculture, medicine, and environmental sectors. He is actively involved in the development of MORPHEUS, Computomics&#39; remote metagenomics sensing
+and analysis platform, which enables high-throughput, machine learning-powered insights into microbial functions and their practical applications.</p>
+						<p class="mb-0">Dr. Patz is currently working on integrating microbiome-derived plant growth-promoting pathway (PGPT) maps into predictive breeding technologies. His work supports the development of precision agriculture
+tools, such as xSeedScore, which leverages the GEMMf-Model (Genotype x Environment x Management x Microbiome + Functions) to optimize plant breeding outcomes.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Javascript -->          
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+	<script src="assets/plugins/smoothscroll.min.js"></script>
+	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+	<script src="assets/js/main.js"></script> 
+	<script src="assets/plugins/countdown.js"></script> 
+
+</body>
+</html> 
